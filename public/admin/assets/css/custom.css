@@ -1,0 +1,54 @@
+.edit-cl{
+    color: #23b195;
+    outline: none;
+}
+
+.delete-cl{
+    color: #e81747;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable{
+    height: 150px;
+}
+
+.clear-cl{
+    color: rgba(151, 152, 151, 0.87);
+}
+
+.clear-cl:hover{
+    color: #e81747;
+}
+
+.dropzone{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.dropzone .dz-message{
+    margin-top: 42px;
+}
+
+
+
+.has-error .select2-container--default .select2-selection--single .select2-selection__rendered{
+    border: 1px solid #d57171;
+    border-radius: 4px;
+}
+
+.has-error .note-editor.note-frame .note-editing-area .note-editable{
+    border: 1px solid #d57171;
+    border-radius: 4px;
+}
+
+
+.select2-container .select2-selection--single{
+    outline: none;
+}
+
+.user-details .user-info a{
+    color: #544f52;
+}
+
+.has-error .contact-grid input[type="text"], .contact-grid textarea{
+    border: 1px solid #a94442;
+}

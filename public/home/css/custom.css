@@ -1,0 +1,375 @@
+.mid{
+    text-align: center;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+    font-family: "FontAwesome";
+    content: "\f099"; /* add twitter icon */
+
+}
+
+.twitterBtn:hover{
+    color: #00ABE3;
+    background: #fff;
+    border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+    font-family: "FontAwesome";
+    content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+    color: #e64522;
+    background: #fff;
+    border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+    font-family: "FontAwesome";
+    content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+    color: #0094BC;
+    background: #fff;
+    border-color: #0094BC;
+}
+
+/* pinterest button class*/
+.pinterestBtn{
+    background: #cb2027;
+}
+
+.pinterestBtn:before{
+    font-family: "FontAwesome";
+    content: "\f0d2"; /* add pinterest icon */
+}
+
+.pinterestBtn:hover{
+    color: #cb2027;
+    background: #fff;
+    border-color: #cb2027;
+}
+
+/* tumblr button class*/
+.tumblrBtn{
+    background: #3a5876;
+}
+
+.tumblrBtn:before{
+    font-family: "FontAwesome";
+    content: "\f173"; /* add tumblr icon */
+}
+
+.tumblrBtn:hover{
+    color: #3a5876;
+    background: #fff;
+    border-color: #3a5876;
+}
+
+/* rss button class*/
+.rssBtn{
+    background: #e88845;
+}
+
+.rssBtn:before{
+    font-family: "FontAwesome";
+    content: "\f09e"; /* add rss icon */
+}
+
+.rssBtn:hover{
+    color: #e88845;
+    background: #fff;
+    border-color: #e88845;
+}
+
+.hanuman{
+    font-family: 'Hanuman', serif;
+}
+
+.language_selector {
+
+    background: transparent;
+    color:  #eee;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.languages {
+    display: none;
+    position: absolute;
+    margin: 0;
+    background: transparent;
+}
+
+.languages > li {
+    width: 195px;
+    background: transparent;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.languages > li:hover {
+    background: transparent;
+}
+
+.lg-list-cl{
+    color: rgba(126, 141, 145, 0.38);
+   padding-left: 5px;
+}
+
+.blk{
+    color: #000;
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+.select-lg{
+    border: 1px solid rgba(236, 31, 31, 0.16);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.font-bg{
+    font-weight: 700;
+}
+
+.font-md{
+    font-weight: 600;
+}
+
+.hd-cl{
+    color: #ec1f1f;
+}
+
+.bd{
+
+    border-radius: 5px;
+    border: solid 1px #f06d06;
+    padding: 5px;
+    background-clip: content-box; /* support: IE9+ */
+    background-color: #b6b6b6;
+
+
+}
+
+.title-w{
+    color: #fff;
+}
+
+.button {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+
+    letter-spacing: 1px;
+}
+.button:before {
+    border-radius: 5px;
+    border: 1px solid #e2868e;
+    /*box-shadow: 0 0 15px rgba(0, 255, 204, 0.15), 0 0 15px rgba(0, 255, 204, 0.15) inset;*/
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 56px;
+    width: 137px;
+    margin-left: -69px;
+    margin-top: -28px;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 300ms;
+}
+.button:hover:before {
+    transform: scale(1.05);
+}
+.button.circle {
+    background: #8b9693;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    width: 128px;
+    height: 49px;
+    line-height: 50px;
+    position: relative;
+    margin: auto;
+    transition: 0.5s;
+}
+.button.circle:hover {
+    background: #737d7a;
+    padding: -2px;
+}
+
+.df-cl{
+    color: rgba(236, 31, 31, 0.84);
+}
+
+.red{
+    background: rgba(236, 31, 31, 0.84);
+}
+
+.font-ms{
+    font-size: 16px;
+
+}
+
+.form-control:focus{
+    border-color:rgba(255,0,0,0.22);
+    webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,0,0,0.22);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,0,0,0.22);
+}
+
+.carousel-indicators {
+    text-align: right;
+}
+
+.carousel-indicators .active{
+    background-color: #ed1f1f;
+}
+
+.carousel-indicators li{
+    background-color: #fff;
+}
+
+.h3{
+    font-family: 'Hanuman', serif;
+}
+
+.strong, b, strong{
+    font-weight: 600;
+}
+
+.sidebar .sidebar-nav li a{
+    height: 34px;
+    line-height: 45px;
+}
+
+.nav>li>a>img{
+    margin-bottom:5px;
+    margin-right: 3px;
+}
+
+.slider{
+    padding-top: 0px;
+}
+
+.sidebar .sidebar-nav{
+    padding-bottom: 12px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    border-color: #ed1f1f transparent transparent;
+    border-top: 1px solid #ed1f1f;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background-color: #ed1f1f;
+    border-color: #ed1f1f;
+}
+
+.pagination>li>a, .pagination>li>span{
+    color: #ed1f1f;
+}
+
+.swal2-popup .swal2-close{
+    outline: none;
+}
+
+.mt-5{
+    margin-top: 5px;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.price-font{
+    font-size: 20px;
+}
+
+.p{
+    margin: 0 0 0.75em;
+}
+
+.max-lines {
+    display: block; /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 1.6em;
+    line-height: 1.8em;
+}
